@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(pink, rgb(231, 110, 245), pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    margin-top: 50px;
+    padding: 65px;
+    padding-top: 20px;
+    border: 1px;
+    border-radius: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(white, rgb(231, 110, 245), pink);
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

@@ -4,12 +4,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    color: red;
 }
 
 section {
     margin-top: 50px;
-    padding: 65px;
+    padding-left: 70px;
+    padding-right: 70px;
     padding-top: 20px;
     border: 1px;
     border-radius: 45px;
@@ -18,7 +19,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(white, rgb(231, 110, 245), pink);
+    background-image: linear-gradient(to top, #fff0 0%, #fff 100%);
 }
 
 

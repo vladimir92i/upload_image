@@ -2,8 +2,6 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$uploadDir = "./img/";
-$uploadImg =  $uploadDir . basename($_FILES['file']['name']);
 
 function get_extension_files($files)
 {
@@ -11,11 +9,18 @@ function get_extension_files($files)
 }
 function check_allowed_extension($extension)
 {
-    $allowed_extensions = ['jpg', 'jpeg', 'png'];
+    $allowed_extensions = ['jpg', 'jpeg', 'png', 'pdf'];
     return in_array($extension, $allowed_extensions);
 }
 
-if (isset($_FILES)) {
+if (isset($_FILES['file'])) {
+    $uploadDir = "./img/";
+    $uploadImg =  $uploadDir . basename($_FILES['file']['name']);
+
+    if ($_FILES['file']['error'] !== UPLOAD_ERR_OK) {
+        die("Une erreur s'est produite lors du téléchargement du fichier.");
+    }
+
     if (!check_allowed_extension(get_extension_files($_FILES['file']['name']))) {
         echo "Ce type de fichier n'est pas autorisé";
         echo "<br>";
@@ -24,7 +29,6 @@ if (isset($_FILES)) {
     }
 
     move_uploaded_file($_FILES['file']['tmp_name'], $uploadImg);
-    echo "Le fichier a bien été uploadé";
 }
 
 ?>

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
+<?php
+include "assets/header.php";
+?>
+
 <body>
     <section>
         <div>

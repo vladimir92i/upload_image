@@ -15,6 +15,7 @@
         </div>
         <h2>Quentin Caron</h2>
         <h2>Groupe : Yanis et Vladimir</h2>
+        <h2>15/20 ne s'est pas cassé la tete,<br> c'est carré</h2>
         <br>
         <bouton class="bouton_link">
             <a class="link" href="upload.php">

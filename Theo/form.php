@@ -10,6 +10,9 @@
         <input class="buttonSub" type="submit" value="Envoyer le fichier" />
       </p>
     </form>
+    <?php
+    include 'footer.php';
+    ?>
   </div>
 </body>
 
@@ -42,9 +45,7 @@ if (isset($_FILES['monfichier'])) {
   }
 }
 ?>
-<?php
-include 'footer.php';
-?>
+
 </body>
 
 </html>

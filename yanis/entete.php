@@ -19,3 +19,4 @@
         </div>
         <p class="name">Yanis BOUKHERCHOUFA</p> <!-- Nom de l'utilisateur ou information similaire -->
         <p>Groupe de Vladimir BOUSSEKEYT, Quentin CARON</p> <!-- Informations sur le groupe ou l'équipe -->
+        <p>15/20, trop de fichier dans tout les sens et trop de commentaire inutiles</p>

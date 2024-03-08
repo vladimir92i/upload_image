@@ -17,11 +17,13 @@
       <img src="./img/poutine.jpg">
     </div>
     <p>Theo Sins</p>
+    <p>16/20 tres créatif</p>
     <a href="form.php" id="upload">Upload</a>
+    <?php
+    include 'footer.php';
+    ?>
   </div>
-  <?php
-  include 'footer.php';
-  ?>
+
 </body>
 
 </html>

@@ -33,14 +33,14 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: green;
     /* Couleur du texte de niveau H1 (rouge dans ce cas) */
 }
 
 p {
     font-size: 14px;
     /* Taille de la police pour les paragraphes */
-    color: blue;
+    color: green;
     /* Couleur du texte des paragraphes (rouge dans ce cas) */
     margin: 5px 0;
     /* Marge supérieure et inférieure des paragraphes */
@@ -67,7 +67,7 @@ img {
 }
 
 form {
-    color: blue;
+    color: green;
     max-width: 400px;
     /* Largeur maximale du formulaire */
     margin: 20px auto;
@@ -79,7 +79,7 @@ label {
     /* Affichage en tant que bloc pour occuper toute la largeur */
     margin-bottom: 10px;
     /* Marge inférieure pour l'étiquette */
-    color: blue;
+    color: green;
     /* Couleur du texte de l'étiquette */
 }
 

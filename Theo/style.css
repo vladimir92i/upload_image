@@ -203,14 +203,5 @@ a#upload,
 }
 
 footer {
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-footer * {
-    all: unset;
+    margin-top: 35px;
 }

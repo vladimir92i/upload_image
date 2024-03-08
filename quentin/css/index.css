@@ -14,7 +14,7 @@ html {
 .center_page {
     text-align: center;
     background: linear-gradient(to bottom, #ff3700, #4c1605);
-    padding: 10vh;
+    padding: 4vh;
     padding-bottom: 0vh;
     border: 1px solid #000;
 }
@@ -69,13 +69,4 @@ h2 {
 h1 {
     color: green;
 
-}
-
-footer {
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }

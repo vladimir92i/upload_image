@@ -23,7 +23,10 @@
                 <p>Plateforme de peer-learning</p>
                 <p>EPSI Lille</p>
             </div>
-            <img class="poutine" src="img/poutine.jpg" alt="Vladimir Poutine">
+            <div class="flex">
+                <img class="poutine" src="img/poutine.jpg" alt="Vladimir Poutine">
+                <img class="poutine" src="img/chatww.jpg" alt="Vladimir Poutine">
+            </div>
             <div>
                 <p>Vladimir POUTINE</p>
                 <p>Groupe : Yanis Boukherchoufa, Quentin Caron</p>

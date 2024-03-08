@@ -9,7 +9,7 @@ if (isset($_FILES['file'])) {
     $allowed_extensions = ['jpg', 'jpeg', 'png', 'pdf'];
 
     //check extension type
-    if (in_array(pathinfo($files, PATHINFO_EXTENSION), $allowed_extensions)) {
+    if (in_array(pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION), $allowed_extensions)) {
         echo "Ce type de fichier n'est pas autorisé";
         echo "<br>";
         echo "Les types de fichiers autorisés sont : jpg, jpeg, png";

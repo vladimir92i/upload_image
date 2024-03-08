@@ -26,7 +26,7 @@
             <img class="poutine" src="img/poutine.jpg" alt="Vladimir Poutine">
             <div>
                 <p>Vladimir POUTINE</p>
-                <p>Groupe : Yanis Boukerchoufa, Quentin Caron</p>
+                <p>Groupe : Yanis Boukherchoufa, Quentin Caron</p>
                 <a href="form.php"><u>Upload your file !</u></a>
             </div>
         </div>

@@ -54,11 +54,13 @@ if (isset($_FILES['file'])) {
     <?php
     include "assets/navbar.php";
     ?>
-    <form action="form.php" method="post" enctype="multipart/form-data">
-        <label for="file">Choisissez un fichier</label>
-        <input type="file" name="file" placeholder="*******.***">
-        <input type="submit" value="Envoyez ici !">
-    </form>
+    <section class="flex items-center justify-center mx-0">
+        <form class="flex flex-col justify-center items-center mt-16 p-5 gap-5 mx-auto text-center border rounded-lg " action="form.php" method="post" enctype="multipart/form-data">
+            <label for="file">Choisissez un fichier</label>
+            <input type="file" name="file" placeholder="*******.***">
+            <input type="submit" value="Envoyez ici !">
+        </form>
+    </section>
 </body>
 
 </html>

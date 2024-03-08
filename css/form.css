@@ -17,3 +17,7 @@ form {
     background-image: linear-gradient(to top, #fff0 0%, #fff 100%);
     gap: 100px;
 }
+
+section {
+    background-image: linear-gradient(to top, #fff0 0%, #fff 100%);
+}

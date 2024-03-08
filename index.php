@@ -15,16 +15,20 @@
     <?php
     include "assets/navbar.php";
     ?>
-    <section class="flex flex-col justify-center items-center pt-16 gap-5">
-        <div>
-            <h1>EPSILON</h1>
-            <p>Plateforme de peer-learning</p>
-            <p>EPSI Lille</p>
-        </div>
-        <img class="poutine" src="img/poutine.jpg" alt="Vladimir Poutine">
-        <div>
-            <p>Vladimir POUTINE</p>
-            <a href="form.php"><u>Upload your file !</u></a>
+
+    <section class="flex items-center justify-center mx-0">
+        <div class="flex flex-col justify-center items-center mt-16 p-5 gap-5 mx-auto text-center border rounded-lg ">
+            <div>
+                <h1>EPSILON</h1>
+                <p>Plateforme de peer-learning</p>
+                <p>EPSI Lille</p>
+            </div>
+            <img class="poutine" src="img/poutine.jpg" alt="Vladimir Poutine">
+            <div>
+                <p>Vladimir POUTINE</p>
+                <p>Groupe : Yanis Boukerchoufa, Quentin Caron</p>
+                <a href="form.php"><u>Upload your file !</u></a>
+            </div>
         </div>
     </section>
 </body>
